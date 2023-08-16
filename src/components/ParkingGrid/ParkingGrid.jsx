@@ -2,13 +2,13 @@ import { Car } from "./Car/Car"
 import { ParkingSpace } from "../ParkingSpace/ParkingSpace"
 import "./parkinggrid.css"
 
-function ParkingGrid({ cars }) {
+function ParkingGrid({ Car }) {
   return (
     <div className="ParkingGrid">
       {Array(20)
         .fill(null)
         .map((_, index) => (
-          <ParkingSpace key={index} car={cars[index]} />
+          <ParkingSpace key={index} car={Car[index]} />
         ))}
     </div>
   )
