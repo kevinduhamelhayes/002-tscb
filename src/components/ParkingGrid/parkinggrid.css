@@ -1,0 +1,9 @@
+.ParkingGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Esto crea 4 columnas de igual tamaño */
+  gap: 10px; /* Espaciado entre cada espacio de estacionamiento */
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px; /* Puedes ajustar este valor según lo necesites */
+  margin: 0 auto;
+}

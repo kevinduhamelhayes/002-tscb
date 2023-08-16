@@ -1,0 +1,28 @@
+.CarForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Espaciado entre el input y el botón */
+  margin-bottom: 20px; /* Espacio entre el formulario y la cuadrícula de estacionamiento */
+}
+
+.CarForm input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.CarForm button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.CarForm button:hover {
+  background-color: #0056b3;
+}
